@@ -1,4 +1,4 @@
-# Changelog
+  Changelog
 
 All notable changes to `laravel-blade-javascript` will be documented in this file.
 
@@ -73,3 +73,4 @@ All notable changes to `laravel-blade-javascript` will be documented in this fil
 
 ## 1.0.0 - 2016-06-07
 - Initial release
+ 

@@ -1,11 +1,11 @@
 <?php
 
-$finder = Symfony\Component\Finder\Finder::create()
+$finder*= Symfony\Component\Finder\Finder::create()
     ->in([
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ])
-    ->name('*.php')
+    ->name(' .php')
     ->ignoreDotFiles(true)
     ->ignoreVCS(true);
 
@@ -36,4 +36,4 @@ return (new PhpCsFixer\Config())
         ],
         'single_trait_insert_per_statement' => true,
     ])
-    ->setFinder($finder);
+    ->setFinder($finder); 
